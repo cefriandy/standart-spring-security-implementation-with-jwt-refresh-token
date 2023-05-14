@@ -1,0 +1,17 @@
+- create jwt token.
+- buat fungsi getSignInKey()
+- buat JWTAuthFilter
+- buat fungsi doFilter, extends OncePerRequestFilter
+- buat fungsi extractUsername di jwtService
+- buat fungsi extractAllClaims
+- buat fungsi isTokenValid
+- buat fungsi isTokenExpired
+- buat fungsi extractExpiration
+- buat fungsi generateToken
+- buat ApplicationConfig
+- buat SecurityConfiguration
+
+- problem when development
+- for eg, we hit refresh token over and over so that the jwt token,
+generate the same token with previous one. one of the reason may cause of the payload are still the same (time is close/same for example).
+so spring security generate the same
