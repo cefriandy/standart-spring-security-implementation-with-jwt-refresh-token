@@ -11,6 +11,8 @@
 - buat ApplicationConfig
 - buat SecurityConfiguration
 
+- need to create error handler for all services
+
 - problem when development
 - for eg, we hit refresh token over and over so that the jwt token,
 generate the same token with previous one. one of the reason may cause of the payload are still the same (time is close/same for example).
